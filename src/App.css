@@ -1,0 +1,42 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.schemas-container {
+  margin-top: 10px;
+}
+
+button {
+  margin: 10px;
+}
+
+/* Additional styles for the offcanvas component */
+.offcanvas {
+  width: 400px;
+}
+
+.offcanvas .btn-secondary {
+  margin-top: 10px;
+}
+
+.offcanvas {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.schemas-container {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.offcanvas-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.offcanvas-body .d-flex {
+  margin-top: auto; /* Ensure buttons are pushed to the bottom */
+}
